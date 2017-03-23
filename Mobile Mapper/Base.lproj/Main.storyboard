@@ -33,7 +33,13 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="h70-RJ-miE" secondAttribute="bottom" id="yen-GK-XIe"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="w7G-IL-lSq"/>
+                    <navigationItem key="navigationItem" id="w7G-IL-lSq">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="refresh" id="byX-xq-Uoe">
+                            <connections>
+                                <action selector="whenButtonTapped:" destination="BYZ-38-t0r" id="Lyw-XJ-kvs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="h70-RJ-miE" id="DhZ-KP-3tf"/>
                     </connections>
